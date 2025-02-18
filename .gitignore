@@ -1,0 +1,35 @@
+# virtual environment
+assessments/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# logs and temporary files
+*.log
+*.tmp
+
+
+# Ignore model weights
+*.h5
+
+
+# VSCode settings (if using VSCode)
+.vscode/
+
+#generated outputs
+outputs/
+results/
+
+# Ignore dataset copies
+*.csv
+
