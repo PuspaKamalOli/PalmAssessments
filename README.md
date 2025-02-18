@@ -73,13 +73,10 @@ The models were evaluated using accuracy, precision, recall, and F1-score. Below
 - The **Neural Network model achieved the highest accuracy (71%)** and the best precision for predicting survivors.
 - The **Random Forest model provided a more balanced precision-recall trade-off**, making it a strong candidate for general classification.
 - The **Logistic Regression model**, while simple and interpretable, had the lowest recall for survivors, making it less effective in this case.
+- However , among three models RFC(bagging) is preferred which excels in preventing overfitting specially when we have very few data(length of data is 891) whereas for neural network we oftenly require a lot of data or it may lead to overfitting problem. 
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Author
-This project was developed as part of a machine learning assessment for Titanic survival prediction.
 
----
-Feel free to modify this README as needed!
 
