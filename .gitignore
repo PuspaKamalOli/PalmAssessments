@@ -23,7 +23,7 @@ __pycache__/
 *.h5
 
 
-# VSCode settings (if using VSCode)
+# VSCode settings
 .vscode/
 
 #generated outputs
